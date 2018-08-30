@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= @page_title %></title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<%=erb "_navigation".to_sym%>
+
+<%= yield %>
+
+<div class="footer">
+    <div class="innerFooter">
+    <div class="socialMedia">
+        <div class="twt">
+            <a href="https://www.twitter.com/morganstanley" class="icon-twitter" data-analytics-link="global-footer-follow-twitter" target="_blank"><span>twitter</span></a>
+        </div>
+        <div class="in">
+             <a href="https://www.linkedin.com/company/497017/" class="icon-linkedin" data-analytics-link="global-footer-follow-linkedin" target="_blank"><span>linkedin</span></a>
+
+        </div>
+        <div class="fb">
+            <a href="https://www.facebook.com/morganstanley" class="icon-facebook" data-analytics-link="global-footer-follow-facebook" target="_blank"><span>facebook</span></a>
+        </div>
+    </div>
+    <div class="footerInfo">
+
+        <div class="footerInfo1">
+             <a href="/disclosures" data-analytics-link="global-footer-disclosures"><span>Disclosures</span></a>
+
+        </div>
+        <div class="footerInfo2">
+             <a href="/about-us-ir" data-analytics-link="global-footer-investor-relations"><span>Investor Relations</span></a>
+        </div>
+        <div class="footerInfo3">
+            <a href="/about-us-governance" data-analytics-link="global-footer-corporate-governance"><span>Corporate Governance</span></a>
+        </div>
+        <div class="footerInfo4">
+            <a href="/people" data-analytics-link="global-footer-careers"><span>Careers</span></a>
+        </div>
+        <div class="footerInfo5">
+            <a href="/about-us-newsroom" data-analytics-link="global-footer-newsroom"><span>Newsroom</span></a>
+        </div>
+     </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jsscript.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

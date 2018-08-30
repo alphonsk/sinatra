@@ -1,0 +1,36 @@
+    <div class="navigation">
+        <div class="header">
+            <P>morganstanley</P>
+        </div>
+        <div class="menu"  >
+            <p style="font-size:30px"> x</p>
+        </div>
+
+        <div class="largeMenu">
+            <div class="homeMenu"><a href="/">Home</a></div>
+            <div class="whatwedoMenu"><a href="/whatwedo">What we do</a> </div>
+            <div class="contactusMenu"><a href="/contactus">Contact us </a></div>
+            <div class="faqMenu"><a href="/faq">Faq</a></div>
+         </div>
+        <div class="menuContent">
+
+    <%  nav =[
+        ['Home', '/', 'Our Home'],
+        ['What we do', '/whatwedo', 'What we do'],
+        ['Contact us', '/contactus', 'Contact us'],
+        ['Faq', '/faq', 'Faq']
+    ]
+    %>
+
+            <ul>
+            <% nav.each do |item|%>
+                <li>
+                <a href="<%= item[1]%>" title="<%= item[2]%>" ><%= item[0]%></a>
+                </li>
+                <% end%>
+
+            </ul>
+
+        </div>
+
+    </div>
