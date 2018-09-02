@@ -13,32 +13,25 @@ $(document).ready(() => {
     });
 
      $('.homeMenu').on('click', ()=> {
-        $('.menuContent').toggle();
+     
        
     });
 
      $('.whatwedoMenu').on('click', ()=> {
-        $('.menuContent').toggle();
+        
        
     });
 
      $('.contactusMenu').on('click', ()=> {
-        $('contuctus.erb').toggle();
+      
        
     });
 
     $('.faqMenu').on('click', ()=> {
-        $('.menuContent').toggle();
+      
        
     });
  
 
 })
 
-function myFunction(imgs) {
-    var expandImg = document.getElementById("expandedImg");
-    var imgText = document.getElementById("imgtext");
-    expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
-    expandImg.parentElement.style.display = "block";
-}

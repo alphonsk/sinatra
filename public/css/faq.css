@@ -1,0 +1,118 @@
+
+/* faq */
+
+.faq {
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.faqInner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
+}
+
+.question {
+    display: block;
+    padding: 5px;
+    border-bottom: solid grey 1px; 
+}
+
+.faqPBottom { 
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
+}
+
+.faqPBottom1, .faqPBottom2, .faqPBottom3 {
+    width: 95%;
+    height: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin:  10px; 
+    border:  solid black 1px;;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .faq {
+        width: 600px;
+        padding: 20px; 
+    }
+    
+    .faqInner { 
+        padding: 10px; 
+        margin-bottom: 20px;  
+    }
+
+    .question { 
+        padding: 10px; 
+    }
+
+    .faqPBottom {   
+        padding: 10px;
+        margin-bottom: 20px;  
+    }
+    
+    .faqPBottom1, .faqPBottom2, .faqPBottom3 {
+        height: 200px;
+    }
+ 
+
+}
+
+@media only screen and (min-width: 900px) {
+    .faq {
+        width: 100%;
+        padding: 20px;  
+    }
+    
+    .faqInner { 
+        padding: 20px; 
+    }
+
+    .question { 
+        margin: 10px; 
+    }
+
+    .faqPBottom { 
+        width: auto; 
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    
+    .faqPBottom1, .faqPBottom2, .faqPBottom3 {
+        display: inline-block;
+        width: 28.5%;
+        margin: 2%;
+        height: 350px;
+    }
+    
+    
+    
+        
+
+
+
+
+
+
+
+
+}
+
+ 
+
+
+
+
+

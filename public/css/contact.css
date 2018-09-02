@@ -1,0 +1,128 @@
+  /* contact page */
+
+.contactPage {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactInfo {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 10px;  
+}
+
+.contactHeader {
+    text-align: center;
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.formInfo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.rowDiv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lableDiv {
+    float: left;
+    width: 22%;
+    margin-top: 6px;
+}
+
+
+.textDiv {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+ 
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.map {
+    width: 80%;
+    height: 250px;
+}
+ 
+
+
+
+    /* contact */
+@media only screen and (min-width: 600px) {
+    .contactPage {
+        width: 600px; 
+    }
+    
+    .contactInfo {
+        width: 90%; 
+        padding: 20px; 
+    }
+    
+    
+      
+    
+}
+
+
+
+@media only screen and (min-width: 900px) {
+         /* contact */
+    
+         .contactPage {
+            width: 80%; 
+        }
+    
+        .contactInfo {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto; 
+            padding-top: 40px; 
+            padding-bottom: 40px; 
+        }
+    
+        .formInfo {
+            width: 90%; 
+        }
+        
+    
+        .lableDiv { 
+            width: 25%; 
+        }
+        
+    }        

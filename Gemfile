@@ -5,4 +5,5 @@
  gem 'haml'
  gem 'activerecord'
  gem 'rainbow'
- gem 'mailgun-ruby', '~1.1.6'
+ gem 'mailgun-ruby'
+ gem "sendgrid-ruby"

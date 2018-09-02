@@ -14,15 +14,16 @@ hr {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-color: #0f8ec7;
+    background-color: #0f8ec7; 
     border-bottom: white solid 1px;
     font-family: karlaregular,sans-serif;
   
 }
 
 
-.argeMenu {
+.largeMenu {
     display: none;
+ 
 }
 
 .homeMenu {
@@ -69,6 +70,8 @@ hr {
     bottom: 12px;
     color: white; 
     width: 30px; 
+    /* display: none; */
+    /* border: solid black; */
 }
 
 .menuContent {
@@ -347,227 +350,6 @@ hr {
 }
 
 
-/* contact page */
-
-.contactPage {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contactInfo {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto; 
-    padding: 10px; 
-}
-
-.contactHeader {
-    text-align: center;
-    width: 70%; 
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.formInfo {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-.rowDiv:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.lableDiv {
-    float: left;
-    width: 22%;
-    margin-top: 6px;
-}
-
-
-.textDiv {
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-}
- 
-
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-}
-
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-
-.map {
-    width: 80%;
-    height: 250px;
-}
- 
-
-
- 
-
-/* "what we do" */
-
-.whatwedo {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px; 
-}
-
- 
-.column img {
-    opacity: 0.8; 
-    cursor: pointer; 
-}
-
-.column img:hover {
-    opacity: 1;
-}
-
- 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
- 
-.container {
-    position: relative;
-    display: none;
-}
- 
-#imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-}
- 
-.closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-}
-
-.columnText {
-    float: left;
-    width: 25%;
-    height: 100px;
-    padding: 10px; 
-    
-}
-
-.columnText1 {
-    display: none;
-    background-image: url('images/bull.jpg')
-}
-
-.columnText2 {
-    display: none;
-    background-image: url('images/carb.jpg')
-}
-
-.columnText3 {
-    display: none;
-    background-image: url('images/carb2.jpg')
-}
-
-.columnText4 {
-    display: none;
-    background-image: url('images/eduction.jpg')
-}
-
- 
-
-/* faq */
-
-.faq {
-    width: 400px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.faqInner {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    padding: 5px;
-}
-
-.question {
-    display: block;
-    padding: 5px;
-    border-bottom: solid grey 1px;
-}
-
-.faqBottom {
-    display: block;
-    height: 150px;
-    padding: 5px; 
-
-}
-
-
-.faqBottom1, .faqBottom2, .faqBottom3 {
-    width: 90%;
-    height: 150px;
-    border: solid grey 1px;
-     
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -667,6 +449,10 @@ input[type=submit]:hover {
         padding: 15px;
          
     }
+
+    .socialMedia { 
+       margin-top: 30px; 
+    }
     
     
     .footer {
@@ -684,48 +470,9 @@ input[type=submit]:hover {
     }
 
 
-
-
-    /* contact */
-
-.contactPage {
-    width: 600px; 
-}
-
-.contactInfo {
-    width: 90%; 
-    padding: 20px; 
 }
 
 
-
-
-/* "what we do" */
-
-.whatwedo {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-
-
-    /* faq */
-
-    .faq {
-        width: 600px;
-        padding: 10px;
-         
-    }
-
-    .faqInner {
-        width: 95%;
-         
-    }
- 
-  
-
-}
 
 @media only screen and (min-width: 900px) {
     .navigation {
@@ -751,13 +498,14 @@ input[type=submit]:hover {
 
     .largeMenu {
         position: absolute;
-        right: 5%;
+        right: 2%;
         width: 55%;
         height: 70px; 
         font-family: karlaregular,sans-serif;
         font-size: 19px;
         color: white;
-        text-align: left; 
+        text-align: right; 
+        display: block;
          
     }
 
@@ -770,36 +518,32 @@ input[type=submit]:hover {
         text-decoration: none;
     }
     
-    .homeMenu { 
-        width: 22%;
+    .homeMenu {  
+        width: auto;
         height: 100%;
-        margin-left: 2%;
-        padding-top: 20px; 
+        padding: 20px; 
         display: inline-block;
 
     }
     
     .whatwedoMenu { 
-        width: 22%;
+        width: auto;
         height: 100%;
-        margin-left: 2%;
-        padding-top: 20px; 
+        padding: 20px; 
         display: inline-block;
     }
     
     .contactusMenu {  
-        width: 22%;
+        width: auto;
         height: 100%;
-        margin-left: 2%;
-        padding-top: 20px; 
+        padding: 20px; 
         display: inline-block;
     }
     
     .faqMenu { 
-        width: 22%;
+        width: auto;
         height: 100%;
-        margin-left: 2%;
-        padding-top: 20px; 
+        padding: 20px; 
         display: inline-block;
     }
 
@@ -821,7 +565,8 @@ input[type=submit]:hover {
         width: 100%;
         height: 500px;  
         padding: 25px; 
-        background-image: url('public/images/forest.jpg');
+        background-color: none;
+        background-image: url('images/forest.jpg');
     }
 
     .bodyHeader { 
@@ -989,64 +734,7 @@ input[type=submit]:hover {
     
     
 
-        /* contact */
-    
-    .contactPage {
-        width: 80%; 
-    }
-
-    .contactInfo {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto; 
-        padding-top: 40px; 
-        padding-bottom: 40px; 
-    }
-
-    .formInfo {
-        width: 95%; 
-    }
-    
-
-    .lableDiv { 
-        width: 25%; 
-    }
-
-    /* "what we do" */
-
-    .whatwedo {
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto; 
-        padding: 30px;
-    }
-
-
-    /* faq */
-
-    .faq {
-        width: 90%;
-        padding: 10px;
-        
-    }
-
-    .faqInner {
-        width: 95%;
-        
-    }
-    
-    
-        
-
-
-
-
-
-
-
-
-}
-
+} 
  
 
 

@@ -1,0 +1,114 @@
+ 
+
+/* "what we do" */
+
+.whatwedo {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px; 
+}
+
+ 
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ 
+.container {
+    position: relative;
+    display: none;
+}
+ 
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+ 
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.columnText {
+    float: left;
+    width: 25%;
+    height: 100px;
+    padding: 10px; 
+    
+}
+
+.columnText1 {
+    display: none;
+    background-image: url('images/bull.jpg')
+}
+
+.columnText2 {
+    display: none;
+    background-image: url('images/carb.jpg')
+}
+
+.columnText3 {
+    display: none;
+    background-image: url('images/carb2.jpg')
+}
+
+.columnText4 {
+    display: none;
+    background-image: url('images/eduction.jpg')
+}
+
+ 
+
+@media only screen and (min-width: 600px) {
+    /* "what we do" */
+    
+    .whatwedo {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    
+    
+    
+        
+}
+
+
+@media only screen and (min-width: 900px) {
+        /* "what we do" */
+    
+        .whatwedo {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto; 
+            padding: 30px;
+        }
+    
+    
+    }
+    
