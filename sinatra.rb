@@ -23,7 +23,7 @@ get '/faq' do
   end
 
 
-  get '/contactus' do
+post '/contactus' do
 
     @name = params["name"]
     @email = params["email"]
@@ -35,10 +35,15 @@ get '/faq' do
     subject = 'idk y'
     content = SendGrid::Content.new(type: 'text/plain', value: "her jeu adj peja jh.")
     mail = SendGrid::Mail.new(from, subject, to, content)
-     sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'] )
+     sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'])
     response = sg.client.mail._('send').post(request_body: mail.to_json)
-   
+    redirect '/contactus'
  end  
+
+ get '/contactus' do 
+    erb :contactus
+ end
+
 
  
 
